@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(docker compose:*)",
+      "Bash(docker build:*)",
+      "Bash(docker run:*)",
+      "Bash(docker ps:*)",
+      "Bash(docker logs:*)",
+      "Bash(docker images:*)",
+      "Bash(npm:*)",
+      "Bash(npx:*)",
+      "Bash(pytest:*)",
+      "Bash(python:*)",
+      "Bash(ruff:*)",
+      "Bash(alembic:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git status:*)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)",
+      "Bash(mkdir:*)",
+      "Bash(ls:*)",
+      "Bash(cat:*)"
+    ],
+    "deny": [
+      "Bash(git push:*)"
+    ]
+  }
+}
